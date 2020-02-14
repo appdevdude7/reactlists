@@ -1,8 +1,8 @@
 .person-card{
-    border: 1px solid burlywood;
+    border: 1px solid rgba(128, 128, 128, 0.100);
     margin: 10px;
-    height: 5rem;
-    width: 10%;
+    height: 7.5rem;
+    width: 15%;
     padding: 2rem;
     text-align: left;
     text-transform: capitalize;
@@ -12,5 +12,5 @@
     -webkit-box-shadow: 10px 10px 6px 3px rgba(201,187,201,0.4);
     -moz-box-shadow: 10px 10px 6px 3px rgba(201,187,201,0.4);
     box-shadow: 10px 10px 6px 3px rgba(201,187,201,0.4);
-    transition: all 0.3s ease-in;
+    transition: all 0.3s ease-out;
 }
