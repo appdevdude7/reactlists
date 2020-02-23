@@ -38,12 +38,8 @@ class App extends React.Component{
         </header>
         {error? <p> {error.message} </p> : null }
         {!isLoading ? (
-          users.map(user => {
-            const { username, name, email } = user;
-            <Persons />
-          })
-        )}
-        <Persons />
+          <Persons persons={users}/>
+        ): null}
       </div>
     );
   }
